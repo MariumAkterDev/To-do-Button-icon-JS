@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-Button-icon-JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+    <div class="mainContainer">
+        <!-- =================Details ===================== -->
+        <div class="statBox">
+            <div class="details">
+                <h1>To-do App</h1>
+                <p>Keep it up!</p>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <div>
+                <p class="numbers"><span class="completedTask">0</span>/<span class="listedTask">0</span></p>
+            </div>
+        </div>
+        <!-- ================= User Task =========================== -->
+        <div class="userBox">
+            <input onkeydown="enterKeyFun(event)" class="userInput" type="search" placeholder="Write here ......" required>
+            <button onclick="btnClickFun()" class="addBtn">+</button>
+        </div>
+        <!-- ================== list items ========================= -->
+        <div class="motherList">
+                <!-- <div class="list">
+                <div class="listBox">
+                    <div class="check">
+                        <input type="checkbox" class="checkBox">
+                    </div>
+                    <input type="text" class="listTaskInp">
+                    <button class="editBtn"><i class="fa-solid fa-pen-to-square"></i></button>
+                    <button class="deleteBtn"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div> -->
+        </div> 
+        <!-- -------------------------------------------end--------------------------------------------- -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    
+</body>
+</html>
